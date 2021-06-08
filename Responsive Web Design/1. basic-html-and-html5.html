@@ -1,13 +1,16 @@
 <DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="2. basic-css.css" />
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 		<title>CatPhotoApp</title>
 	</head>
 	<body>
 		<main>
-			<p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos.</a></p>
-			<a href="#"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
-			<div>
+			<h2 class="red-text">Cat Photo App</h2>
+			<p class="red-text">View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos.</a></p>
+			<a href="#"><img class="smaller-image thick-green-border" src="https://www.bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+			<div class="silver-background">
 				<p>Cats love...</p>
 				<ul>
 					<li>milk;</li>
@@ -21,7 +24,7 @@
 					<li>water!</li>
 				</ol>
 			</div>
-			<form action="https://www.freecatphotoapp.com/submit-cat-photo">
+			<form id="cat-photo-form" action="https://www.freecatphotoapp.com/submit-cat-photo">
 				<input required type="text" placeholder="cat photo URL">
 				<label for="indoor"><input id="indoor" checked type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
 				<label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
